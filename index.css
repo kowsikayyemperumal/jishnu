@@ -1,0 +1,188 @@
+body{
+    height: 100px;
+    width: 100px;
+    background: rgb(25,25,27);
+    right:20px;
+    position: relative;
+    background: linear-gradient(90deg, rgba(25,25,27,1) 51%, rgba(63,66,66,1) 70%);
+    overflow: hidden;
+}
+.a{
+    border-radius: 50%;   
+    height: 300px;
+    width: 300px;
+    position: relative;  
+    left: 50px; 
+    top: 150px; 
+    object-fit: cover;
+    outline: 3px solid whitesmoke;
+    outline-offset: 5px;
+    z-index: 9;
+}
+.b{
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    height: 1950px;
+    width: 1330px;
+    position: relative;
+    left: 0px;
+    bottom: 628px;
+    opacity: 0.1;
+} 
+.c{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 2200px;
+    left:500px;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.d{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom:2268px;
+    left: 585px;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.e{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom:2336px;
+    left: 700px;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.f{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom:2404px;
+    left: 790px;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.g{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom:2472px;
+    left: 870px;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.h{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom:2540px;
+    left: 985px;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.i{
+    height: 900px;
+    width: 1500px;
+    position: relative;
+    background-color: gold;
+    bottom: 3000px;
+    left: 400px;
+    border-radius: 60%;
+    outline: 2px solid yellow;
+    outline-offset: 3px;
+}
+.j{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    bottom:2607px;
+    left: 1120px;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.k{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 3200px;
+    left:120px;
+    z-index: 9;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: xx-large;
+}
+.o{
+    height: 1000px;
+    width: 350px;
+    position: relative;
+    background-color: black;
+    bottom: 4470px;
+    left: 25px;
+    border-radius: 200px;
+    outline: 3px solid black;
+    outline-offset: 2px;
+}
+.l{
+    height: 100px;
+    width: 1000px;
+    position: relative;
+    bottom: 3260px;
+    left:70px;
+    z-index: 9;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-size: xx-large;
+}
+.m{
+    height: 50px;
+    width: 600px;
+    position: relative;
+    bottom:4770px;
+    left: 450px;
+    text-transform: uppercase;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+.n{
+    height: 50px;
+    width: 600px;
+    position: relative;
+    bottom:4790px;
+    left: 550px;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+.p{
+    height: 800px;
+    width: 900px;
+    position: relative;
+    bottom: 5200px;
+    color: black;
+    z-index: 3;
+    left: 500px;
+    opacity: 0.4;
+}
+@media  screen and(min-width:600px) {
+    body{
+        background-color: aqua;
+    }
+}
+
+
+
